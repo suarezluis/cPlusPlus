@@ -11,30 +11,30 @@ int main()
     char option;
     while (option != 'q')
     {
-        cout << "\x1B[2J\x1B[H";
+        
 
-        cout << "       ╔═══════════════════════════╗\n";
-        cout << "       ║ Welcome to TT18_L1_Suarez ║\n";
-        cout << "       ╟───────────────────────────╢\n";
-        cout << "       ║          OPTIONS          ║\n";
-        cout << "       ║          ┈┈┈┈┈┈┈          ║\n";
-        cout << "       ║      (A)mount of Bill     ║\n";
-        cout << "       ║      (B)ody Mass Index    ║\n";
-        cout << "       ║           (Q)uit          ║\n";
-        cout << "       ╚═══════════════════════════╝\n\n";
+        cout << "       +---------------------------+\n";
+        cout << "       | Welcome to TT18_L1_Suarez |\n";
+        cout << "       |---------------------------|\n";
+        cout << "       |          OPTIONS          |\n";
+        cout << "       |          -------          |\n";
+        cout << "       |      (A)mount of Bill     |\n";
+        cout << "       |      (B)ody Mass Index    |\n";
+        cout << "       |           (Q)uit          |\n";
+        cout << "       +---------------------------+\n\n";
 
         cout << "Please enter an option: ";
         cin >> option;
         option = tolower(option);
         if (option == 'a')
         {
-            cout << "\x1B[2J\x1B[H";
-            cout << "       ╔═══════════════════════════╗\n";
-            cout << "       ║ Welcome to TT18_L1_Suarez ║\n";
-            cout << "       ╟───────────────────────────╢\n";
-            cout << "       ║       Amount of Bill      ║\n";
-            cout << "       ║       ┈┈┈┈┈┈┈┈┈┈┈┈┈┈      ║\n";
-            cout << "       ╚═══════════════════════════╝\n\n";
+            
+            cout << "       +---------------------------+\n";
+            cout << "       | Welcome to TT18_L1_Suarez |\n";
+            cout << "       |---------------------------|\n";
+            cout << "       |       Amount of Bill      |\n";
+            cout << "       |       --------------      |\n";
+            cout << "       +---------------------------+\n\n";
             cout << "Please enter the cost of the food: $";
             double foodCost = 0;
             cin >> foodCost;
@@ -54,13 +54,13 @@ int main()
 
         if (option == 'b')
         {
-            cout << "\x1B[2J\x1B[H";
-            cout << "       ╔═══════════════════════════╗\n";
-            cout << "       ║ Welcome to TT18_L1_Suarez ║\n";
-            cout << "       ╟───────────────────────────╢\n";
-            cout << "       ║    Body Mass Calculator   ║\n";
-            cout << "       ║    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ║\n";
-            cout << "       ╚═══════════════════════════╝\n\n";
+            
+            cout << "       +---------------------------+\n";
+            cout << "       | Welcome to TT18_L1_Suarez |\n";
+            cout << "       |---------------------------|\n";
+            cout << "       |    Body Mass Calculator   |\n";
+            cout << "       |    --------------------   |\n";
+            cout << "       +---------------------------+\n\n";
             cout << "Please enter height in inches: ";
             int heightInches = 0;
             cin >> heightInches;
@@ -87,15 +87,15 @@ int main()
 Menu
 =======================================
 
-       ╔═══════════════════════════╗
-       ║ Welcome to TT18_L1_Suarez ║
-       ╟───────────────────────────╢
-       ║          OPTIONS          ║
-       ║          ┈┈┈┈┈┈┈          ║
-       ║      (A)mount of Bill     ║
-       ║      (B)ody Mass Index    ║
-       ║           (Q)uit          ║
-       ╚═══════════════════════════╝
+       +---------------------------+
+       | Welcome to TT18_L1_Suarez |
+       |---------------------------|
+       |          OPTIONS          |
+       |          -------          |
+       |      (A)mount of Bill     |
+       |      (B)ody Mass Index    |
+       |           (Q)uit          |
+       +---------------------------+
 
 Please enter an option:
 
@@ -104,12 +104,12 @@ Please enter an option:
 Amount of Bill
 =======================================
 
-       ╔═══════════════════════════╗
-       ║ Welcome to TT18_L1_Suarez ║
-       ╟───────────────────────────╢
-       ║       Amount of Bill      ║
-       ║       ┈┈┈┈┈┈┈┈┈┈┈┈┈┈      ║
-       ╚═══════════════════════════╝
+       +---------------------------+
+       | Welcome to TT18_L1_Suarez |
+       |---------------------------|
+       |       Amount of Bill      |
+       |       --------------      |
+       +---------------------------+
 
 Please enter the cost of the food: $156
 Please enter the percentage that you want to tip: 20
@@ -124,12 +124,12 @@ ENTER ANY CHARACTER TO CONTINUE :
 Body Mass Calculator
 =======================================
 
-       ╔═══════════════════════════╗
-       ║ Welcome to TT18_L1_Suarez ║
-       ╟───────────────────────────╢
-       ║    Body Mass Calculator   ║
-       ║    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ║
-       ╚═══════════════════════════╝
+       +---------------------------+
+       | Welcome to TT18_L1_Suarez |
+       |---------------------------|
+       |    Body Mass Calculator   |
+       |    --------------------   |
+       +---------------------------+
 
 Please enter height in inches: 68
 Please enter weight in pounds: 162
@@ -143,3 +143,4 @@ ENTER ANY CHARACTER TO CONTINUE :
 
 
 */
+
