@@ -3,10 +3,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-	cout << "What is the current year? ";
-	int currentYear = 0;
-	cin >> currentYear;
-	cout << "Next year is: " << ++currentYear << endl;
-	cout << "Good-bye!\n";
+	int num = 8;
+ cout << --num << " ";
+ cout << num++ << " ";
+ cout << num; 
 	return 0;
 }
