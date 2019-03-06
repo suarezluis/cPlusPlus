@@ -1,11 +1,8 @@
 //This is how to write a comment
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main(){
-	int num = 8;
- cout << --num << " ";
- cout << num++ << " ";
- cout << num; 
-	return 0;
+	cout << 6 - 6 / 3 + 3;
 }
